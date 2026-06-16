@@ -412,7 +412,7 @@
     "chat.editing.confirmEditRequestRemoval": false,
     "chat.editing.confirmEditRequestRetry": false,
     "window.autoDetectColorScheme": true,
-    "editor.fontSize": 16,
+    "editor.fontSize": 15,
     "editor.stickyScroll.enabled": false,
     "explorer.decorations.colors": false,
     "breadcrumbs.enabled": false,
@@ -445,5 +445,7 @@
     },
     "workbench.editor.decorations.badges": false,
     "workbench.editor.showIcons": false,
-    "workbench.editor.useModal": "off"
+    "workbench.editor.useModal": "off",
+    "workbench.statusBar.visible": false,
+    "zenMode.showTabs": "none"
 }
