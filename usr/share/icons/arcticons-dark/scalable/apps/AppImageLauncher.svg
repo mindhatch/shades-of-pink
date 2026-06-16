@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" id="svg5" version="1.1" viewBox="0 0 48 48" xml:space="preserve" sodipodi:docname="AppImageLauncher.svg" inkscape:version="1.4.3 (1:1.4.3+202512261035+0d15f75042)">
+<sodipodi:namedview id="namedview1" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1" inkscape:showpageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#505050" inkscape:zoom="15.9375" inkscape:cx="23.968627" inkscape:cy="24" inkscape:window-width="1745" inkscape:window-height="1014" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="svg5"/><metadata id="metadata11"/>
+<defs><style>
+    .cls-1 {
+      fill:none;
+      stroke:#fff;
+      stroke-width:2px;
+      stroke-linecap:round;
+      stroke-linejoin:round;
+      stroke-opacity:1;
+    }
+</style></defs>
+     <path id="appimagehub-logo" d="M 19.069256,14.303023 22.312605,6 h 3.37479 l 9.064884,23.205349 c -1.726325,1.116 -3.803023,1.831396 -5.975163,2.23786 L 24,19.5 18.808047,32.479675 C 20.431395,32.816651 22.17907,33 24,33 c 8.537442,0 15.468698,-4.032837 15.468698,-9 0,-2.733907 -2.099303,-5.184419 -5.410465,-6.835395 -0.309768,0.400186 -0.794512,0.658047 -1.339535,0.658047 -0.933907,0 -1.692419,-0.758512 -1.692419,-1.69242 0,-0.934325 0.758512,-1.692837 1.692419,-1.692837 0.871535,0 1.590279,0.66014 1.682372,1.507396 4.597116,2.039023 7.59893,5.392047 7.59893,9.18 0,3.221163 -2.170465,6.127954 -5.646558,8.179535 -1.798326,1.089209 -3.810558,1.84479 -5.901488,2.325349 C 28.448511,36.11107 26.273023,36.374791 24,36.374791 c -2.273023,0 -4.448512,-0.263721 -6.451953,-0.745116 L 15,42 H 8.2500001 L 11.646558,33.304326 C 8.1704651,31.252745 6,28.345954 6,25.124791 6,19.984325 11.528512,15.644652 19.069256,14.303023 Z M 39.75,42 H 33 l -2.120651,-5.301209 c 2.067907,-0.50693 4.060465,-1.269628 5.88893,-2.332046 z M 18.574047,15.57014 C 12.709814,16.849814 8.5313024,20.143395 8.5313024,24 c 0,2.418698 1.6430236,4.615535 4.3149766,6.233442 z" class="cls-1"/></svg>

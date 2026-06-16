@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.b{fill:none;stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="path6" d="m15.551 4.5c-1.645 0-3 1.355-3 3v6.5a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-6.5c0-0.56419 0.43581-1 1-1h24.369c0.56419 0 1 0.43581 1 1v17.801a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-17.801c0-1.645-1.355-3-3-3z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="path8" d="m14.518 17.504c-0.09145-1.27e-4 -0.18401 0.0026-0.27539 0.0078a1.0001 1.0001 0 0 0-0.03125 2e-3c-2.5187 0.22401-4.4499 2.3782-4.4004 4.9062v3.3906c0 2.5783 2.1111 4.6894 4.6895 4.6894s4.6895-2.1111 4.6895-4.6895v-3.6191c1e-6 -6.64e-4 -1e-6 -0.0013 0-2e-3a1 1 0 0 0-0.07813-0.38477c-0.20412-2.3848-2.1579-4.2968-4.5937-4.3007zm-0.0039 2c1.4919 0.0024 2.6782 1.1916 2.6758 2.6836a1 1 0 0 0 0 2e-3v3.6211c-6e-6 1.4974-1.192 2.6894-2.6895 2.6894s-2.6895-1.192-2.6895-2.6895v-3.4102a1.0001 1.0001 0 0 0 0-0.01953c-0.02928-1.4954 1.0868-2.7391 2.5762-2.873 0.04267-2e-3 0.08425-4e-3 0.12695-0.0039z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="path10" d="m6.5 13c-1.645 0-3 1.355-3 3v16c0 1.645 1.355 3 3 3h16c1.645 0 3-1.355 3-3v-16c0-1.645-1.355-3-3-3zm0 2h16c0.56419 0 1 0.43581 1 1v16c0 0.56419-0.43581 1-1 1h-16c-0.56419 0-1-0.43581-1-1v-16c0-0.56419 0.43581-1 1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line12" d="m24.23 30.857a1 1 0 0 0-0.60156 0.47266 1 1 0 0 0 0.38086 1.3613l19 10.68a1 1 0 0 0 1.3613-0.38086 1 1 0 0 0-0.38086-1.3613l-19-10.68a1 1 0 0 0-0.75976-0.0918z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="polyline14" d="m43 23.523-15.91 9.1699a1 1 0 0 0-0.36719 1.3652 1 1 0 0 0 1.3672 0.36719l14.41-8.3047v15.379h-29.83v-7.5a1 1 0 0 0-1-1 1 1 0 0 0-1 1v8.5a1.0001 1.0001 0 0 0 1 1h31.83a1.0001 1.0001 0 0 0 1-1v-18.109a1.0001 1.0001 0 0 0-1.5-0.86719z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

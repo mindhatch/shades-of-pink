@@ -1,0 +1,3 @@
+.thunar .view, .thunar .frame, widget, menubar { background-color: #070707; }
+.thunar .view:selected { background-color: #faa5b6; color: #333333; }
+.thunar .view .rubberband { background-color: rgba(0,0,0,0); border-color: #aaaaaa; }

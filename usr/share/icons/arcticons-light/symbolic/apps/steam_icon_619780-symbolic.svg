@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.c{fill:none;stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="rect6" d="m21.656 2.5c-0.99597 0-1.8301 0.83216-1.8301 1.8281v2.3848c0 0.99597 0.83411 1.8281 1.8301 1.8281h5.0586c0.99597 0 1.8281-0.83216 1.8281-1.8281v-2.3848c0-0.99597-0.83216-1.8281-1.8281-1.8281zm0.16992 2h4.7168v2.041h-4.7168z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="rect8" d="m19.033 13.971c-1.3409 0-2.4512 1.1103-2.4512 2.4512v1.2246c0 1.3409 1.1103 2.4512 2.4512 2.4512h9.9336c1.3409 0 2.4512-1.1103 2.4512-2.4512v-1.2246c0-1.3409-1.1103-2.4512-2.4512-2.4512zm0 2h9.9336c0.26748 0 0.45117 0.18369 0.45117 0.45117v1.2246c0 0.26748-0.18369 0.45117-0.45117 0.45117h-9.9336c-0.26748 0-0.45117-0.18369-0.45117-0.45117v-1.2246c0-0.26748 0.18369-0.45117 0.45117-0.45117z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line10" d="m24 18.098a1 1 0 0 0-1 1v16.992a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-16.992a1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line12" d="m21.936 6.541a1 1 0 0 0-1 1v7.4297a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-7.4297a1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="polyline14" d="m21.176 18.098a1 1 0 0 0-1.0488 0.94922l-1.0254 20.621a1.0001 1.0001 0 0 0 0.22461 0.68164l3.8984 4.7832a1.0001 1.0001 0 0 0 1.5508 0l3.8984-4.7832a1.0001 1.0001 0 0 0 0.22461-0.68164l-1.0254-20.621a1 1 0 0 0-1.0488-0.94922 1 1 0 0 0-0.94922 1.0488l1.0059 20.238-2.8809 3.5312-2.8809-3.5312 1.0059-20.238a1 1 0 0 0-0.94922-1.0488z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line16" d="m26.064 6.541a1 1 0 0 0-1 1v7.4297a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-7.4297a1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

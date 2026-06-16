@@ -1,0 +1,2 @@
+#! /usr/bin/env zsh
+grim -g "$(slurp -d)" -t ppm - | satty --filename - --output-filename "~/Pictures/Screenshots/%m-%d-%Y-%H:%M:%S.png"

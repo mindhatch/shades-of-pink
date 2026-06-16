@@ -1,0 +1,17 @@
+# Fuzzel Colors
+
+[colors]
+background=f8b4c9ff
+text=333333ff
+prompt=333333ff
+placeholder=7a7a7aff
+input=333333ff
+match=333333ff
+selection=faa5b6ff
+selection-text=333333ff
+selection-match=ffffffff
+border=333333ff
+
+[border]
+width=4
+radius=0

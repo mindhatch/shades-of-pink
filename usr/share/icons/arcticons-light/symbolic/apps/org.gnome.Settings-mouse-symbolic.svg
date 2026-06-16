@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.b{fill:none;stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="rect6" d="m24 3.5c-8.2927 0-15 6.7073-15 15v11c0 8.2927 6.7073 15 15 15s15-6.7073 15-15v-11c0-8.2927-6.7073-15-15-15zm0 2c7.2193 0 13 5.7807 13 13v11c0 7.2193-5.7807 13-13 13s-13-5.7807-13-13v-11c0-7.2193 5.7807-13 13-13z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line8" d="m10 19.232a1 1 0 0 0-1 1 1 1 0 0 0 1 1h28a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line10" d="m24 3.5a1 1 0 0 0-1 1v15.732a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-15.732a1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

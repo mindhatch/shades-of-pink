@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.c{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}</style>
+ </defs>
+ <path id="rect6" transform="translate(24 -9.9411) rotate(45)" d="m12.379 7.3789c-2.7527 0-5 2.2473-5 5v23.242c0 2.7527 2.2473 5 5 5h23.242c2.7527 0 5-2.2473 5-5v-23.242c0-2.7527-2.2473-5-5-5zm0 2h23.242c1.6793 0 3 1.3207 3 3v23.242c0 1.6793-1.3207 3-3 3h-23.242c-1.6793 0-3-1.3207-3-3v-23.242c0-1.6793 1.3207-3 3-3z" color="#000000" fill="#fff" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="path8" transform="translate(16.739 54.933) rotate(225)" d="m10.133 10.387c-2.197 0-4 1.803-4 4v19.227c0 2.197 1.803 4 4 4h19.227c2.197 0 4-1.803 4-4v-18.227c0-2.7489-2.2511-5-5-5zm0 2h18.227c1.6665 0 3 1.3335 3 3v18.227c0 1.1144-0.88558 2-2 2h-19.227c-1.1144 0-2-0.88558-2-2v-19.227c0-1.1144 0.88558-2 2-2z" color="#000000" fill="#fff" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

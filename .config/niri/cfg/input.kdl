@@ -1,0 +1,29 @@
+// ────────────── Input Configuration ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Input
+
+input {
+    keyboard {
+        xkb {
+            //layout "us" // Use the American keyboard layout
+        }
+	    repeat-delay 300
+	    repeat-rate 40
+    }
+
+    touchpad {
+        tap // Enable tap-to-click
+        natural-scroll // Enable natural (macOS-style) scrolling
+	    accel-speed 0.5
+	    dwt
+    }
+
+    mouse {
+        // If you want to disable Mouse Acceleration,
+        // uncomment the lines below.
+        //accel-profile "flat"
+        //accel-speed 0.0
+    }
+
+    warp-mouse-to-focus mode="center-xy"
+    workspace-auto-back-and-forth // Enable workspace back & forth switching
+}

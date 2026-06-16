@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg18" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.a{fill:none;stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="rect6" d="m14.98 6.7891c-1.6447 0-3 1.3553-3 3v28.422c0 1.6447 1.3553 3 3 3h18.049c1.6447 0 3-1.3553 3-3v-28.422c0-1.6447-1.3553-3-3-3zm0 2h18.049c0.5713 0 1 0.4287 1 1v28.422c0 0.5713-0.4287 1-1 1h-18.049c-0.5713 0-1-0.4287-1-1v-28.422c0-0.5713 0.4287-1 1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="path8" d="m35 8.8203a1 1 0 0 0-1 1 1 1 0 0 0 1 1h5.9453c0.89042 0.0034 1.5903 0.70333 1.5938 1.5938v23.172c-0.0034 0.89042-0.70333 1.5903-1.5938 1.5938h-5.9453a1 1 0 0 0-1 1 1 1 0 0 0 1 1h5.9492a1.0001 1.0001 0 0 0 0.0039 0c1.9659-0.0075 3.5784-1.6201 3.5859-3.5859a1.0001 1.0001 0 0 0 0-0.0039v-23.18a1.0001 1.0001 0 0 0 0-0.0039c-0.0075-1.9659-1.6201-3.5784-3.5859-3.5859a1.0001 1.0001 0 0 0-0.0039 0z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="polyline10" d="m35.02 14.93a1 1 0 0 0-1 1 1 1 0 0 0 1 1h4.3203v16.871h-4.3203a1 1 0 0 0-1 1 1 1 0 0 0 1 1h5.3203a1.0001 1.0001 0 0 0 1-1v-18.871a1.0001 1.0001 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="path12" d="m7.0859 8.8203c-1.9659 0.0075466-3.5784 1.6201-3.5859 3.5859a1.0001 1.0001 0 0 0 0 0.0039v23.18a1.0001 1.0001 0 0 0 0 0.0039c0.00755 1.9659 1.6201 3.5784 3.5859 3.5859a1.0001 1.0001 0 0 0 0.00391 0h5.9102a1 1 0 0 0 1-1 1 1 0 0 0-1-1h-5.9062c-0.89042-0.003406-1.5903-0.70332-1.5938-1.5937v-23.172c0.00342-0.89042 0.70333-1.5903 1.5938-1.5938h5.9062a1 1 0 0 0 1-1 1 1 0 0 0-1-1h-5.9102a1.0001 1.0001 0 0 0-0.00391 0z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="polyline14" d="m7.6602 14.93a1.0001 1.0001 0 0 0-1 1v18.871a1.0001 1.0001 0 0 0 1 1h5.3203a1 1 0 0 0 1-1 1 1 0 0 0-1-1h-4.3203v-16.871h4.3203a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="rect16" d="m15.631 11.539a1.0001 1.0001 0 0 0-1 1v24.211a1.0001 1.0001 0 0 0 1 1h16.75a1.0001 1.0001 0 0 0 1-1v-24.211a1.0001 1.0001 0 0 0-1-1zm1 2h14.75v22.211h-14.75z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

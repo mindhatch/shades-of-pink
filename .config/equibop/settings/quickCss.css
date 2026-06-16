@@ -1,0 +1,224 @@
+.theme-light:not(.custom-user-profile-theme) {
+    --text-0: #fae8f0; /* text on colored elements */
+    --text-1: #474747; /* other normally white text */
+    --text-2: #000000; /* headings and important text */
+    --text-3: #000000; /* normal text */
+    --text-4: #333333; /* icon buttons and channels */
+    --text-5: #474747; /* muted channels/chats and timestamps */
+
+    --bg-1: #faa5b6; /* dark buttons when clicked */
+    --bg-2: #faa5b6; /* dark buttons */
+    --bg-3: #ed99aa; /* spacing, secondary elements */
+    --bg-4: hsla(343, 85%, 84%, 0.275); /* main background color */
+    --popout-bg: #fab0c6;/* popout background color */
+    --panels-bg: #fab1c5 !important; /* panel headers background color */
+    --hover: #faa5b6;  /* channels and buttons when hovered */
+    --active: #faa5b6; /* channels and buttons when clicked or selected */
+    --active-2: #b994a8a4; /* extra state for transparent buttons */
+    --message-hover: #faa5b600; /* messages when hovered */
+
+    --accent-1: #d8677f; /* links and other accent text */
+    --accent-2: #d8677f; /* small accent elements */
+    --accent-3: #e58498; /* accent buttons */
+    --accent-4: #faa5b6; /* accent buttons when hovered */
+    --accent-5: #b994a8a4; /* accent buttons when clicked */
+    --accent-new: var(
+        --accent-2
+    ); /* stuff that's normally red like mute/deafen buttons */
+    /* --mention: #faa5b6a4; /* background of messages that mention you */
+    /* --mention-hover: #faa5b674; /* background of messages that mention you when hovered */
+    --mention: #d8677f18; /* background of messages that mention you */
+    --mention-hover: linear-gradient(
+        to right,
+        color-mix(in hsl, #d8677f, transparent 90%) 40%,
+        transparent
+    ); /* background of messages that mention you when hovered */
+
+    /* border colors */
+    --border-light: #fe9d9d; /* general light border color */
+    --border: #333333; /* general normal border color */
+    --border-hover: #d8677f; /* border color of panels when hovered */
+    --button-border: hsl(
+        235,
+        0%,
+        100%,
+        0.1
+    ); /* neutral border color of buttons */
+
+    --code-bg: #faa5b6;
+    --code-border: #000000;
+    --code-color: #000000;
+    --date-bg: #faa5b6;
+    --date-color: #333333;
+    --placeholder-text: #33333393;
+    --right-click-hover-bg: #faa5b6;
+}
+
+.theme-dark:not(.custom-user-profile-theme) {
+    --text-0: #070707; /* text on colored elements */
+    --text-1: #f9c3ce; /* other normally white text */
+    --text-2: #d8677f; /* headings and important text */
+    --text-3: #fae8f0; /* normal text */
+    --text-4: #e3dbdbae; /* icon buttons and channels */
+    --text-5: #beaab4; /* muted channels/chats and timestamps */
+
+    --bg-1: #212121; /* dark buttons when clicked */
+    --bg-2: #333333; /* dark buttons when hovered*/
+    --bg-3: #202020; /* spacing, secondary elements */
+    --bg-4: hsl(0, 0%, 3%, 0.275); /* main background color */
+    --popout-bg: #070707; /* popout background color */
+    --hover: none; /* channels and buttons when hovered */
+    --active: none; /* channels and buttons when clicked or selected */
+    --active-2: #b994a8; /* extra state for transparent buttons */
+    --message-hover: linear-gradient(
+        to right,
+        color-mix(in hsl, var(--text-2), transparent 100%) 40%,
+        transparent
+    ); /* messages when hovered */
+
+    --accent-1: #d8677f; /* links and other accent text */
+    --accent-2: #e58498; /* small accent elements */
+    --accent-3: #e58498; /* accent buttons */
+    --accent-4: #faa5b6; /* accent buttons when hovered */
+    --accent-5: #b994a8a4; /* accent buttons when clicked */
+    --accent-new: var(
+        --accent-2
+    ); /* stuff that's normally red like mute/deafen buttons */
+    --mention: #d8677f10; /* background of messages that mention you */
+    --mention-hover: linear-gradient(
+        to right,
+        color-mix(in hsl, var(--text-2), transparent 95%) 40%,
+        transparent
+    ); /* background of messages that mention you when hovered */
+
+    /* border colors */
+    --border-light: #faa5b65d; /* general light border color */
+    --border: #e58498; /* general normal border color */
+    --border-hover: #e58498cc; /* border color of panels when hovered */
+    --button-border: hsl(
+        235,
+        0%,
+        100%,
+        0.1
+    ); /* neutral border color of buttons */
+
+    --code-bg: #202020;
+    --code-border: #e58498;
+    --code-color: #ebdae1;
+    --date-bg: #000000;
+    --date-color: #e58498;
+    --placeholder-text: #beaab484;
+    --right-click-hover-bg: #e58498;
+}
+
+/* message text */
+.messageContent_c19a55,
+.slateTextArea_ec4baf {
+    font-family: 'Maple Mono NF';
+    letter-spacing: .005ch;
+    font-weight: 300;
+}
+
+/* server banner that appears over a server image */
+.bannerVisible_f37cb1 .headerContent_f37cb1,
+.bannerVisible_f37cb1 .name_f37cb1 {
+    color: #fae8f0;
+}
+
+/* inline code and blocks */
+.markup__75297 code,
+.markup__75297 code.inlinfaa5b6e,
+.codeBlockText_ada32f,
+.codeLine_ada32f,
+.inlineCode_ada32f {
+    font-family: var(--code-font);
+    background-color: var(--code-bg);
+    color: var(--code-color);
+    font-size: 18px !important;
+    border: none;
+    letter-spacing: -0.05ch;
+    border-left: 2px solid var(--code-border);
+    border-right: 2px solid var(--code-border);
+}
+
+.markup__75297 code.inline {
+    padding-left: .75%;
+    padding-right: .75%;
+}
+
+/* date header when separating messages */
+.content__908e2 {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--date-color);
+    background-color: var(--date-bg);
+}
+
+/* small badge that says "NEW" */
+.newBadge_faa96b {
+    color: var(--text-0);
+}
+
+/* popout modals */
+.container__8a031 {
+    background-color: var(--popout-bg);
+}
+
+/* popout menus like search and emoji picker */
+.clickable__13533,
+.base__13533 {
+    background-color: var(--popout-bg);
+    /* border: 1px solid var(--code-border); */
+    background: none;
+}
+.clickable__13533[role=option]>.base__13533:hover,
+.clickable__13533[aria-selected=true]>.base__13533 {
+    transform: translateX(1%);
+    border: 1px solid var(--code-border);
+    background: none;
+}
+.itemContainer_caf372:hover,
+.result__71961[aria-selected=true],
+.item_e4d939:hover {
+    transform: translateX(.5%);
+    border: 1px solid var(--code-border);
+    background: none;
+}
+.itemContainer__971b5:hover,
+.itemContainer__971b5[aria-selected=true] {
+    border: 1px solid var(--code-border);
+    background: transparent;
+}
+.labelContainer_c1e9c4:hover {
+    background-color: var(--right-click-hover-bg);
+}
+.labelContainer_c1e9c4:hover>.label_c1e9c4 {
+    color: #333333;
+}
+
+/* placeholder text */
+.placeholder__1b31f {
+    color: var(--placeholder-text);
+}
+/* selected channel text and icons */
+.modeSelected__2ea32 .name__2ea32,
+.modeSelected__2ea32 .icon__2ea32,
+.selectedChannel_c69b6d .actionIcon_c69b6d {
+    color: var(--text-2);
+}
+
+/* channel hover and selected channel */
+.containerDefault_c69b6d:hover,
+.selected_c69b6d {
+    border: 1px solid var(--code-border);
+
+/* warning text, like delete message */
+}
+.linkTop_2ea32 {
+    color: #ff0000 !important;
+}
+.colorDanger_c1e9c4,
+.colorDanger_c1e9c4>.label_c1e9c4,
+.colorDanger_c1e9c4>.icon_c1e9c4:hover {
+    color: #ff000099 !important;
+}

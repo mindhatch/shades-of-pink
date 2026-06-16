@@ -1,0 +1,8 @@
+#! /usr/bin/env zsh
+current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
+
+if [ "${current_theme}" = "'Adwaita-light'" ]; then
+    foot -o initial-color-theme=light &
+else
+    foot -o initial-color-theme=dark
+fi

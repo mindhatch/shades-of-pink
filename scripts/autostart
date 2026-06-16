@@ -1,0 +1,14 @@
+#! /usr/bin/env zsh
+current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
+
+if [ "${current_theme}" = "'Adwaita-light'" ]; then
+    mpd-discord-rpc &
+    foot -o initial-color-theme=light -- sh -c "yazi" &
+    sleep 0.2
+    foot -o initial-color-theme=light -- sh -c "sleep 0.1 && niri msg action consume-or-expel-window-left && rmpc" &
+else
+    mpd-discord-rpc &
+    foot -o initial-color-theme=dark -- sh -c "yazi" &
+    sleep 0.2
+    foot -o initial-color-theme=dark -- sh -c "sleep 0.1 && niri msg action consume-or-expel-window-left && rmpc" &
+fi

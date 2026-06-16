@@ -1,0 +1,3 @@
+#! /usr/bin/env zsh
+EVENT=$(libinput list-devices | grep -A1 "keyd virtual keyboard" | grep -E -o "event[0-9]+")
+sed -r -i "s|event[0-9]+|"$EVENT"|g" ~/.local/state/noctalia/settings.toml

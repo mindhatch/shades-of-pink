@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A minimalist, Helium based dashboard.">
+    <meta name="theme-color" content="#152671">
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-eval' https://suggestqueries.google.com; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https:; connect-src 'self' https://suggestqueries.google.com; child-src 'none'; object-src 'none';">
+    <title>♥ ♥ ♥ </title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://suggestqueries.google.com">
+    <script src="assets/js/three.min.js"></script>
+    <script src="assets/js/config.js"></script>
+</head>
+
+<body class="flex flex-col h-screen select-none" style="cursor: default;">
+    <main class="flex-1 flex flex-col items-center justify-center px-6 relative z-10">
+        <div class="mb-6 pointer-events-none select-none"
+            style="animation: reveal3D var(--a-entrance) forwards; animation-delay: 0.1s; opacity: 0; perspective: 1200px;">
+            <div class="canvas-3d-entrance">
+                <canvas id="app-3d" class="opacity-95"></canvas>
+            </div>
+        </div>
+        <div class="flex flex-col items-center mb-10 text-center pointer-events-none select-none">
+            <h1 id="clock"
+                class="text-[6rem] md:text-[8rem] font-normal tracking-tight text-white mb-2 leading-none entrance-reveal"
+                style="animation-delay: 0.1s;">00:00</h1>
+            <p id="date" class="text-[1.15rem] md:text-[1.25rem] font-medium leading-relaxed max-w-xl entrance-reveal"
+                style="animation-delay: 0.2s;">Monday, January 1</p>
+        </div>
+        <div class="search-wrapper w-full max-w-[32rem] relative flex flex-col entrance-reveal"
+            style="animation-delay: 0.3s;">
+            <form id="search-form" class="w-full relative z-20" role="search">
+                <div class="search-container relative flex items-center" role="combobox" aria-haspopup="listbox"
+                    aria-expanded="false" id="search-combobox">
+                    <svg class="search-icon absolute left-5 w-5 h-5 text-[#6b7280] pointer-events-none z-20" fill="none"
+                        stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round"
+                        stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <div class="search-loader absolute left-5 w-5 h-5 z-20 hidden" aria-hidden="true"></div>
+                    <div id="bang-indicator"
+                        class="absolute left-4 w-7 h-7 z-30 flex items-center justify-center opacity-0 scale-75 transition-all duration-200 pointer-events-none"
+                        aria-hidden="true"></div>
+                    <input type="text" id="search-input" placeholder=""
+                        class="w-full py-4 pl-14 pr-6 rounded-xl search-input text-lg font-medium relative z-10"
+                        autocomplete="off" autofocus aria-label="Search the web" aria-autocomplete="list"
+                        aria-controls="suggestions-list" aria-activedescendant="">
+                </div>
+                <ul id="suggestions-list" class="suggestions-dropdown m-0 p-0 list-none" role="listbox"
+                    aria-label="Search suggestions"></ul>
+            </form>
+            <div id="tab-tray"
+                class="w-[92%] mx-auto relative z-10 -mt-2 pt-2 tab-tray rounded-b-xl flex overflow-hidden select-none">
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

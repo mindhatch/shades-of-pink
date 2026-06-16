@@ -1,0 +1,30 @@
+#! /usr/bin/env zsh
+current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
+
+if [ "${current_theme}" = "'Adwaita-light'" ]; then
+    noctalia msg wallpaper-set /home/doyle/Pictures/Wallpapers/dark-topo.png
+    gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'
+    gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+    gsettings set org.gnome.desktop.interface icon-theme 'arcticons-dark'
+    sed -i 's/light/dark/' ~/.local/state/noctalia/settings.toml
+    sed -i 's/active-color "#333333"/active-color "#bd5a6f"/' ~/.config/niri/cfg/layout.kdl
+    sed -i 's/color "#000000CC"/color "#bd5a6fCC"/' ~/.config/niri/cfg/rules.kdl
+    sed -i 's/#f8b4c9/#070707/' ~/.config/gtk-3.0/gtk.css
+    sed -i 's/e-pink/e-pink-dark/' ~/.config/fuzzel/fuzzel.ini
+    sed -i 's/e-pink/e-pink-dark/' ~/.config/btop/btop.conf
+    pkill -USR1 foot
+    pkill -SIGUSR2 btop
+elif [ "${current_theme}" = "'Adwaita'" ]; then
+    noctalia msg wallpaper-set /home/doyle/Pictures/Wallpapers/pinkswirls.jpg
+    gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-light'
+    gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
+    gsettings set org.gnome.desktop.interface icon-theme 'arcticons-light'
+    sed -i 's/dark/light/' ~/.local/state/noctalia/settings.toml
+    sed -i 's/active-color "#bd5a6f"/active-color "#333333"/' ~/.config/niri/cfg/layout.kdl
+    sed -i 's/color "#bd5a6fCC"/color "#000000CC"/' ~/.config/niri/cfg/rules.kdl
+    sed -i 's/#070707/#f8b4c9/' ~/.config/gtk-3.0/gtk.css
+    sed -i 's/e-pink-dark/e-pink/' ~/.config/fuzzel/fuzzel.ini
+    sed -i 's/e-pink-dark/e-pink/' ~/.config/btop/btop.conf
+    pkill -USR2 foot
+    pkill -SIGUSR2 btop
+fi

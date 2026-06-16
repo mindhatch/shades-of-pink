@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs1">
+  <style id="style1">.b{fill:none;stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="polygon1" d="m14.123 12.893a1.0001 1.0001 0 0 0-0.95703 0.70898l-8.623 28.377a1.0001 1.0001 0 0 0 0.95703 1.291h28.377a1.0001 1.0001 0 0 0 0.95703-0.70898l8.623-28.377a1.0001 1.0001 0 0 0-0.95703-1.291zm0.74219 2h26.285l-8.0156 26.377h-26.285z" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path id="polygon2" d="m5.5 4.7305a1.0001 1.0001 0 0 0-0.68555 1.7285l8.623 8.1113a1.0001 1.0001 0 0 0 0.68555 0.27148h28.377a1.0001 1.0001 0 0 0 0.68555-1.7285l-8.623-8.1113a1.0001 1.0001 0 0 0-0.68555-0.27148zm2.5234 2h25.457l6.4961 6.1113h-25.457z" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path id="line2" d="m5.5 4.7305a1 1 0 0 0-1 1v36.539a1 1 0 0 0 1 1 1 1 0 0 0 1-1v-36.539a1 1 0 0 0-1-1z" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

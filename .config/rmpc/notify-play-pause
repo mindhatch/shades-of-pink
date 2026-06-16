@@ -1,0 +1,43 @@
+#!/usr/bin/env sh
+
+# Directory where to store temporary data
+TMP_DIR="/tmp/rmpc"
+
+# Ensure the directory is created
+mkdir -p "$TMP_DIR"
+
+# Where to temporarily store the album art received from rmpc
+ALBUM_ART_PATH="$TMP_DIR/notification_cover"
+
+# Path to fallback album art if no album art is found by rmpc/mpd
+# Change this to your needs
+DEFAULT_ALBUM_ART_PATH="$HOME/Pictures/ininia-birthday.png"
+
+# Save album art of the currently playing song to a file
+if ! rmpc albumart --output "$ALBUM_ART_PATH"; then
+    # Use default album art if rmpc returns non-zero exit code
+    ALBUM_ART_PATH="${DEFAULT_ALBUM_ART_PATH}"
+fi
+
+# Gets the previous state
+PREV_STATE=$(rmpc status | jq -r '.state')
+
+# Play or pause the current track
+rmpc remote keybind p
+
+# Gets song info and current playing status
+STATE=$(rmpc status | jq -r '.state')
+ARTIST=$(rmpc song | jq -r '.metadata.artist')
+TITLE=$(rmpc song | jq -r '.metadata.title')
+
+
+# Send the notification
+if [ "$PREV_STATE" = "Stop" -a "$STATE" = "Stop" ]; then
+    notify-send -i "${ALBUM_ART_PATH}" "Nothing in Queue" "Select some music to play :3"
+elif [ "$PREV_STATE" = "Stop" -a "$STATE" = "Play" ]; then
+    sleep 0
+elif [ "$STATE" = "Pause" ]; then
+    notify-send -i "${ALBUM_ART_PATH}" "${STATE}d" "$ARTIST\n$TITLE"
+elif [ "$STATE" = "Play" ]; then
+    notify-send -i "${ALBUM_ART_PATH}" "Now ${STATE}ing" "$ARTIST\n$TITLE"
+fi

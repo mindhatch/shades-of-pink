@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.b{fill:none;stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="rect6" d="m9.5 4.5c-2.7527 0-5 2.2473-5 5v29c0 2.7527 2.2473 5 5 5h29c2.7527 0 5-2.2473 5-5v-29c0-2.7527-2.2473-5-5-5zm0 2h29c1.6793 0 3 1.3207 3 3v29c0 1.6793-1.3207 3-3 3h-29c-1.6793 0-3-1.3207-3-3v-29c0-1.6793 1.3207-3 3-3z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line8" d="m5.5 34.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h37a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line10" d="m32.5 25.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h3a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line12" d="m12.5 25.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h14a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line14" d="m21.5 13.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h14a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line16" d="m12.5 13.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h3a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="circle18" d="m18.5 10.5c-2.1973 0-4 1.8027-4 4s1.8027 4 4 4 4-1.8027 4-4-1.8027-4-4-4zm0 2c1.1164 0 2 0.88359 2 2s-0.88359 2-2 2-2-0.88359-2-2 0.88359-2 2-2z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="circle20" d="m29.5 22.5c-2.1973 0-4 1.8027-4 4s1.8027 4 4 4 4-1.8027 4-4-1.8027-4-4-4zm0 2c1.1164 0 2 0.88359 2 2s-0.88359 2-2 2-2-0.88359-2-2 0.88359-2 2-2z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

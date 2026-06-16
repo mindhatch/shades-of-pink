@@ -1,0 +1,24 @@
+theme = "peachpuff"
+
+[editor]
+line-number = "relative"
+scrolloff = 10
+auto-pairs = false
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[keys.normal]
+space.e = [
+  ':sh rm -f /tmp/unique-file',
+  ':sh rm -f /tmp/unique-cwd-file',
+  ":insert-output yazi --chooser-file=/tmp/unique-file --cwd-file=/tmp/unique-cwd-file",
+  ':insert-output echo "\x1b[?1049h\x1b[?2004h" > /dev/tty',
+  ':open %sh{cat /tmp/unique-file}',
+  ':cd %sh{cat /tmp/unique-cwd-file}',
+  ':redraw',
+  ':set mouse false',
+  ':set mouse true',
+]

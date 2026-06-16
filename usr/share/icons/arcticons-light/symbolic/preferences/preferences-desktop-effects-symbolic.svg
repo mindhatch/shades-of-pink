@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.b{fill:none;stroke:#000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="rect6" d="m9.5 4.5c-2.7527 0-5 2.2473-5 5v29c0 2.7527 2.2473 5 5 5h29c2.7527 0 5-2.2473 5-5v-29c0-2.7527-2.2473-5-5-5zm0 2h29c1.6793 0 3 1.3207 3 3v29c0 1.6793-1.3207 3-3 3h-29c-1.6793 0-3-1.3207-3-3v-29c0-1.6793 1.3207-3 3-3z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="line8" d="m5.5 34.5a1 1 0 0 0-1 1 1 1 0 0 0 1 1h37a1 1 0 0 0 1-1 1 1 0 0 0-1-1z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="path10" d="m24 10.014a1.0001 1.0001 0 0 0-1 0.98633c0 4.7063-3.7937 8.5-8.5 8.5a1.0001 1.0001 0 0 0 0 2c4.7063 0 8.5 3.7937 8.5 8.5a1.0001 1.0001 0 0 0 2 0c0-4.7063 3.7937-8.5 8.5-8.5a1.0001 1.0001 0 0 0 0-2c-4.7063 0-8.5-3.7937-8.5-8.5a1.0001 1.0001 0 0 0-1-0.98633zm0 5.3262c1.0494 2.2815 2.8787 4.1107 5.1602 5.1602-2.2815 1.0494-4.1107 2.8787-5.1602 5.1602-1.0494-2.2815-2.8787-4.1107-5.1602-5.1602 2.2815-1.0494 4.1107-2.8787 5.1602-5.1602z" color="#000000" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs4">
+  <style id="style2">.b{fill:none;stroke:#fff;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="rect6" d="m9.5 4.5c-2.7527 0-5 2.2473-5 5v8.5c0 2.7527 2.2473 5 5 5h29c2.7527 0 5-2.2473 5-5v-8.5c0-2.7527-2.2473-5-5-5zm0 2h29c1.6793 0 3 1.3207 3 3v8.5c0 1.6793-1.3207 3-3 3h-29c-1.6793 0-3-1.3207-3-3v-8.5c0-1.6793 1.3207-3 3-3z" color="#000000" fill="#fff" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="rect8" d="m9.5 25c-2.7527 0-5 2.2473-5 5v8.5c0 2.7527 2.2473 5 5 5h29c2.7527 0 5-2.2473 5-5v-8.5c0-2.7527-2.2473-5-5-5zm0 2h29c1.6793 0 3 1.3207 3 3v8.5c0 1.6793-1.3207 3-3 3h-29c-1.6793 0-3-1.3207-3-3v-8.5c0-1.6793 1.3207-3 3-3z" color="#000000" fill="#fff" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="path10" d="m20.539 7.75c-0.82369 0-1.5137 0.68998-1.5137 1.5137v8.9727c0 0.82369 0.68998 1.5137 1.5137 1.5137h6.9219c0.82369 0 1.5137-0.68998 1.5137-1.5137v-6.666a1.0001 1.0001 0 0 0-0.29297-0.70703l-2.8203-2.8203a1.0001 1.0001 0 0 0-0.70703-0.29297zm0.48633 2h3.7148l2.2344 2.2344v5.7656h-5.9492z" color="#000000" fill="#fff" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+ <path id="circle12" d="m24 27.75c-3.578 0-6.5 2.922-6.5 6.5s2.922 6.5 6.5 6.5 6.5-2.922 6.5-6.5-2.922-6.5-6.5-6.5zm0 2c2.4971 0 4.5 2.0029 4.5 4.5s-2.0029 4.5-4.5 4.5-4.5-2.0029-4.5-4.5 2.0029-4.5 4.5-4.5z" color="#000000" fill="#fff" stroke-linecap="round" stroke-linejoin="round" style="-inkscape-stroke:none"/>
+</svg>

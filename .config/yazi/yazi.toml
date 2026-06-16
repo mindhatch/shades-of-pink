@@ -1,0 +1,36 @@
+[mgr]
+show_hidden = false
+sort_by = "natural"
+sort_reverse = false
+sort_dir_first = true
+linemode = "mtime"
+scrolloff = 10
+
+
+[preview]
+image_quality = 50
+
+[opener]
+play = [
+    { run = "mpv %s", desc = "open video", block = true, orphan = true, for = "unix"}
+]
+edit = [
+    { run = "$EDITOR %s",  desc = "helix",  for = "unix", block = true },
+    { run = "code %s", desc = "vscode", for = "unix", block = true }
+]
+image = [
+    { run = "qview %s", desc = "open image", for = "unix", block = true} 
+]
+
+[open]
+rules = [
+    { mime = "text/*", use = "edit" },
+    { mime = "video/*", use = "play" },
+    { mime = "image/*", use = "image" }
+]
+
+[confirm]
+trash = true
+delete = true
+overwrite = true
+quit = false

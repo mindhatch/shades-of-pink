@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+ <defs id="defs1">
+  <style id="style1">.d{fill:none;stroke:#fff;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}</style>
+ </defs>
+ <path id="path1" d="m23 4.5c0 4.1119-2.9178 7.951-6.0508 12.129s-6.4492 8.7122-6.4492 14.371c0 7.444 6.056 13.5 13.5 13.5s13.5-6.056 13.5-13.5c0-5.6588-3.3162-10.193-6.4492-14.371s-6.0508-8.017-6.0508-12.129zm1 4.5918c1.2061 3.0847 3.3366 5.9192 5.4492 8.7363 3.117 4.1566 6.0508 8.3047 6.0508 13.172 0 6.3632-5.1368 11.5-11.5 11.5s-11.5-5.1368-11.5-11.5c0-4.8672 2.9338-9.0153 6.0508-13.172 2.1126-2.8172 4.2431-5.6516 5.4492-8.7363z" fill="#fff" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
