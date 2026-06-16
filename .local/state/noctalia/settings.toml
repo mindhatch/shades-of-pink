@@ -205,9 +205,14 @@ telemetry_enabled = false
 time_format = "%I:%M"
 ui_scale = 1.2500000111758709
 
+    [shell.animation]
+    enabled = false
+
     [shell.panel]
     borders = false
     clipboard_placement = "attached"
+    launcher_categories = false
+    launcher_compact = true
     launcher_show_icons = false
     shadow = false
     transparency_mode = "glass"
