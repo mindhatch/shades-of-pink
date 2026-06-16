@@ -17,8 +17,8 @@ preview = { bg = "black", fg = "#000000" }
 padding = { open = "█", close = "█" }
 
 [tabs]
-active = { bg = "black", fg = "#000000" }
-inactive = { bg = "#202020", fg = "#ed99aa" }
+active = { bg = "black", fg = "white", bold = true, italic = true }
+inactive = { fg = "white" }
 sep_inner = { open = "", close = "" }
 sep_outer = { open = "", close = "" }
 
