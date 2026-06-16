@@ -134,7 +134,7 @@
     font-family: var(--code-font);
     background-color: var(--code-bg);
     color: var(--code-color);
-    font-size: 15px !important;
+    font-size: 16px !important;
     border: none;
     letter-spacing: -0.05ch;
     border-left: 2px solid var(--code-border);
@@ -221,8 +221,4 @@
 .colorDanger_c1e9c4>.label_c1e9c4,
 .colorDanger_c1e9c4>.icon_c1e9c4:hover {
     color: #ff000099 !important;
-}
-
-* {
-    font-size: 15px !important;
 }

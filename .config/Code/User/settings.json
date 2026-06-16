@@ -412,7 +412,7 @@
     "chat.editing.confirmEditRequestRemoval": false,
     "chat.editing.confirmEditRequestRetry": false,
     "window.autoDetectColorScheme": true,
-    "editor.fontSize": 15,
+    "editor.fontSize": 16,
     "editor.stickyScroll.enabled": false,
     "explorer.decorations.colors": false,
     "breadcrumbs.enabled": false,
