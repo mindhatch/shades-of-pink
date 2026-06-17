@@ -236,18 +236,19 @@ wallpaper_scheme = "vibrant"
 
 [wallpaper]
 directory = "/home/doyle/Pictures/Wallpapers"
+enabled = false
 fill_mode = "stretch"
 transition = [ "fade" ]
 transition_on_startup = true
 
     [wallpaper.default]
-    path = "/home/doyle/Pictures/Wallpapers/pinkswirls.jpg"
+    path = "/home/doyle/Pictures/Wallpapers/light-topo.png"
 
     [wallpaper.last]
-    path = "/home/doyle/Pictures/Wallpapers/pinkswirls.jpg"
+    path = "/home/doyle/Pictures/Wallpapers/light-topo.png"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/doyle/Pictures/Wallpapers/pinkswirls.jpg"
+    path = "/home/doyle/Pictures/Wallpapers/light-topo.png"
 
 [weather]
 address = ""

@@ -2,7 +2,7 @@
 current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
 
 if [ "${current_theme}" = "'Adwaita-light'" ]; then
-    noctalia msg wallpaper-set /home/doyle/Pictures/Wallpapers/dark-topo.png
+    awww img ~/Pictures/Wallpapers/dark-pink-topo.png -t none &
     gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'
     gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
     gsettings set org.gnome.desktop.interface icon-theme 'arcticons-dark'
@@ -15,7 +15,7 @@ if [ "${current_theme}" = "'Adwaita-light'" ]; then
     pkill -USR1 foot
     pkill -SIGUSR2 btop
 elif [ "${current_theme}" = "'Adwaita'" ]; then
-    noctalia msg wallpaper-set /home/doyle/Pictures/Wallpapers/pinkswirls.jpg
+    awww img ~/Pictures/Wallpapers/pinkswirls.jpg -t none &
     gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-light'
     gsettings set org.gnome.desktop.interface color-scheme 'prefer-light'
     gsettings set org.gnome.desktop.interface icon-theme 'arcticons-light'
