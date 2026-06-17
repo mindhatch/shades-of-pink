@@ -42,7 +42,7 @@
         symbols: ["│", "█", "", ""],
         track_style: (fg: "blue"),
         ends_style: (),
-        thumb_style: (fg: "#d8677f"),
+        thumb_style: (fg: "black"),
     ),
     tab_bar: (
         active_style: (bg: "black", fg: "#000000", modifiers: "Bold"),
