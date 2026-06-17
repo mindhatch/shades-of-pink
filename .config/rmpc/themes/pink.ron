@@ -13,7 +13,7 @@
     modal_backdrop: false,
     preview_metadata_group_style: (modifiers: "Bold"),
     highlighted_item_style: (fg : "#d8677f", modifiers: "Italic"),
-    current_item_style: (fg: "#000000", bg: "black", modifiers: "Bold"),
+    current_item_style: (fg: "#000000", bg: "#e58498", modifiers: "Bold"),
     symbols: (
         song: " ",
         dir: " ",
@@ -34,7 +34,7 @@
     progress_bar: (
         symbols: ["༺", "༻", " ", " ", " "],
         track_style: (),
-        elapsed_style: (fg: "#bd5a6f"),
+        elapsed_style: (fg: "#e58498"),
         thumb_style: (),
         use_track_when_empty: true,
     ),
@@ -42,10 +42,10 @@
         symbols: ["│", "█", "", ""],
         track_style: (fg: "blue"),
         ends_style: (),
-        thumb_style: (fg: "black"),
+        thumb_style: (fg: "#e58498"),
     ),
     tab_bar: (
-        active_style: (bg: "black", fg: "#000000", modifiers: "Bold"),
+        active_style: (bg: "#e58498", fg: "#000000", modifiers: "Bold"),
         inactive_style: (),
     ),
     browser_song_format: [

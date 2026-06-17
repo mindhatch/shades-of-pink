@@ -11,19 +11,19 @@ count_selected = { reversed = true }
 border_style = { fg = "#e58498" }
 
 [indicator]
-parent = { bg = "black", fg = "#000000" }
-current = { bg = "black", fg = "#000000" }
-preview = { bg = "black", fg = "#000000" }
+parent = { bg = "#e58498", fg = "#000000" }
+current = { bg = "#e58498", fg = "#000000" }
+preview = { bg = "#e58498", fg = "#000000" }
 padding = { open = "█", close = "█" }
 
 [tabs]
-active = { bg = "black", fg = "white", bold = true, italic = true }
+active = { bg = "#e58498", fg = "#000000", bold = true, italic = true }
 inactive = { fg = "white" }
 sep_inner = { open = "", close = "" }
 sep_outer = { open = "", close = "" }
 
 [mode]
-normal_main = { bg = "black", fg = "#000000" }
+normal_main = { bg = "#e58498", fg = "#000000" }
 normal_alt = { bg = "#202020", fg = "#faa5b6" }
 select_main = { bg = "#c55679", fg = "#fae8f0" }
 select_alt = { bg = "#202020", fg = "#fae8f0" }
