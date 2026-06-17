@@ -21,8 +21,8 @@
 	    on
 	    hide-when-single-tab
 	    width 6
-	    active-color "#e8889c"
-	    inactive-color "#a98dc1"
+	    active-color "#d8677f"
+	    inactive-color "#faa5b6"
 	    gaps-between-tabs 8
 	    corner-radius 18
 	}
