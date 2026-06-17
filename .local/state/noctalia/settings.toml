@@ -179,6 +179,7 @@ widget_order = [
         sensitivity = 3.0
 
 [notification]
+background_opacity = 0.4999999888241291
 show_app_name = false
 
 [osd]
