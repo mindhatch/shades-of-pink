@@ -131,6 +131,11 @@ binds {
     Mod+S				                hotkey-overlay-title="Screenshot" { spawn "~/Scripts/take-screenshot"; }
     Mod+P				                hotkey-overlay-title="Pick color" { spawn-sh "killall hyprpicker || hyprpicker --autocopy --lowercase-hex"; }
 
+    // ─── Noctalia ───
+    Mod+N                               { spawn-sh "noctalia msg panel-open control-center notifications"; }
+    Mod+ALT+C                           { spawn-sh "noctalia msg panel-toggle clipboard"; }
+    Mod+ALT+S                           { spawn-sh "noctalia msg settings-open"; }
+
     // ─── Emergency Escape Key ───
     // Use this when a fullscreen app blocks your keybinds.
     // It disables any active keyboard shortcut inhibitor, restoring control.
