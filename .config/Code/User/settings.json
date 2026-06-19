@@ -23,7 +23,7 @@
             "input.background": "#f8b4c9",
             "button.background": "#faa5b6",
             "statusBar.background": "#f8b4c9",
-            "tab.activeBackground": "#faa5b6",
+            "tab.activeBackground": "#e58498",
             "tab.inactiveBackground": "#f8b4c9",
             "tab.hoverBackground": "#ed99aaa4",
             "sideBar.dropBackground": "#f8b4c9",

@@ -6,8 +6,14 @@ light and dark themes that both feature a heavy focus on the shades of pink
 <img width="2304" height="1440" alt="dark1" src="/assets/dark1.png" />
 <img width="2304" height="1440" alt="dark2" src="/assets/dark2.png" />
 <img width="2304" height="1440" alt="dark3" src="/assets/dark3.png" />
+<img width="2304" height="1440" alt="dark4" src="/assets/dark4.png" />
+<img width="2304" height="1440" alt="dark5" src="/assets/dark5.png" />
+<img width="2304" height="1440" alt="dark6" src="/assets/dark6.png" />
 
 ## light theme
 <img width="2304" height="1440" alt="light1" src="/assets/light1.png" />
 <img width="2304" height="1440" alt="light2" src="/assets/light2.png" />
 <img width="2304" height="1440" alt="light3" src="/assets/light3.png" />
+<img width="2304" height="1440" alt="light4" src="/assets/light4.png" />
+<img width="2304" height="1440" alt="light5" src="/assets/light5.png" />
+<img width="2304" height="1440" alt="light6" src="/assets/light6.png" />
