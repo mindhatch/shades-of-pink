@@ -1,15 +1,18 @@
-[bar.default]
-background_opacity = 0.40000000000000002
-center = [ "audio_visualizer", "cat", "media", "heart", "cat_2", "audio_visualizer" ]
-end = [ "recorder", "cpu", "temp", "battery", "weather" ]
-font_weight = 400
-margin_edge = 0
-margin_ends = 110
-radius = 0
-scale = 1.25
-shadow = false
-start = [ "workspaces", "clock" ]
-widget_spacing = 16
+[bar]
+order = [ "default" ]
+
+    [bar.default]
+    background_opacity = 0.40000000000000002
+    center = [ "audio_visualizer", "cat", "media", "heart", "cat_2", "audio_visualizer" ]
+    end = [ "recorder", "cpu", "temp", "battery", "weather" ]
+    font_weight = 400
+    margin_edge = 0
+    margin_ends = 110
+    radius = 0
+    scale = 1.25
+    shadow = false
+    start = [ "workspaces", "clock" ]
+    widget_spacing = 16
 
 [[control_center.shortcuts]]
 type = "wifi"
@@ -169,14 +172,16 @@ widget_order = [
 
         [lockscreen_widgets.widget.lockscreen-widget-0000000000000007.settings]
         background = false
-        bar_width = 0.20000000000000001
+        bar_width = 1.0
         bloom_intensity = 0.0
         inner_diameter = 0.0
-        primary_color = "secondary"
+        primary_color = "primary"
         ring_opacity = 0.0
         rotation_speed = 1.4000000000000001
-        secondary_color = "primary"
+        secondary_color = "tertiary"
         sensitivity = 3.0
+        visualization_mode = "bars_rings"
+        wave_thickness = 2.0
 
 [notification]
 background_opacity = 0.4999999888241291
@@ -260,6 +265,7 @@ unit = "imperial"
 
 [widget.audio_visualizer]
 bands = 64
+scale = 1.25
 show_when_idle = true
 width = 200.0
 
