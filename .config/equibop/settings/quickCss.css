@@ -15,7 +15,7 @@
     --hover: #faa5b6;  /* channels and buttons when hovered */
     --active: #e58498; /* channels and buttons when clicked or selected */
     --active-2: #b994a8a4; /* extra state for transparent buttons */
-    --message-hover: #faa5b600; /* messages when hovered */
+    --message-hover: #d8677f18; /* messages when hovered */
 
     --accent-1: #d8677f; /* links and other accent text */
     --accent-2: #d8677f; /* small accent elements */
@@ -25,8 +25,6 @@
     --accent-new: var(
         --accent-2
     ); /* stuff that's normally red like mute/deafen buttons */
-    /* --mention: #faa5b6a4; /* background of messages that mention you */
-    /* --mention-hover: #faa5b674; /* background of messages that mention you when hovered */
     --mention: #d8677f18; /* background of messages that mention you */
     --mention-hover: linear-gradient(
         to right,
@@ -70,11 +68,7 @@
     --hover: none; /* channels and buttons when hovered */
     --active: none; /* channels and buttons when clicked or selected */
     --active-2: #b994a8; /* extra state for transparent buttons */
-    --message-hover: linear-gradient(
-        to right,
-        color-mix(in hsl, var(--text-2), transparent 100%) 40%,
-        transparent
-    ); /* messages when hovered */
+    --message-hover: #d8677f10; /* messages when hovered */
 
     --accent-1: #d8677f; /* links and other accent text */
     --accent-2: #e58498; /* small accent elements */
