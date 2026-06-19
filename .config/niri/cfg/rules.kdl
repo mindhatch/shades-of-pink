@@ -53,6 +53,7 @@
 
     window-rule {
         match app-id="com.gabm.satty"
+        match app-id="satty"
     	match app-id="mpv"
     	match title="Zen"
     	match app-id="foot"
