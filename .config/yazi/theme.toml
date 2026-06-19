@@ -6,7 +6,7 @@ marker_cut = { bg = "#c55679", fg = "#c55679" }
 marker_marked = { bg = "white", fg = "white" }
 marker_selected = { bg = "white", fg = "white" }
 count_copied = { bg = "#ed99aa", fg = "#000000" }
-count_cut = { bg = "#c55679", fg = "#fae8f0" }
+count_cut = { bg = "#c55679", fg = "#d5bac6" }
 count_selected = { reversed = true }
 border_style = { fg = "#e58498" }
 
@@ -25,8 +25,8 @@ sep_outer = { open = "", close = "" }
 [mode]
 normal_main = { bg = "#e58498", fg = "#000000" }
 normal_alt = { bg = "#202020", fg = "#faa5b6" }
-select_main = { bg = "#c55679", fg = "#fae8f0" }
-select_alt = { bg = "#202020", fg = "#fae8f0" }
+select_main = { bg = "#c55679", fg = "#d5bac6" }
+select_alt = { bg = "#202020", fg = "#d5bac6" }
 unset_main = { bg = "#c55679", fg = "#000000" }
 unset_alt = { bg = "#202020", fg = "#c55679" }
 
@@ -40,7 +40,7 @@ perm_exec = { fg = "cyan" }
 perm_sep = { fg = "white" }
 progress_label = { bg = "#faa5b6", fg = "#000000" }
 progress_normal = { bg = "#faa5b6", fg = "#000000" }
-progress_error = { bg = "#c55679", fg = "#ffffff" }
+progress_error = { bg = "#c55679", fg = "#d5bac6" }
 
 [which]
 mask = { bg = "#faa5b6" }
