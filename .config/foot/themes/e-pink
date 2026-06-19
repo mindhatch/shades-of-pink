@@ -27,7 +27,7 @@ cursor = faa5b6 333333
 
 [colors-dark]
 background = 070707
-foreground = fae8f0
+foreground = dac8d0
 
 selection-background = e58498
 selection-foreground = 070707
@@ -39,7 +39,7 @@ regular3 = af7784 #yellow
 regular4 = e58498 #blue
 regular5 = c35e73 #magenta
 regular6 = ed99aa #cyan
-regular7 = fae8f0 #white
+regular7 = dac8d0 #white
 
 bright0 = bd5a6f
 bright1 = b994a8
