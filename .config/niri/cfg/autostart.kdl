@@ -4,5 +4,4 @@
     spawn-at-startup "awww-daemon"
     spawn-at-startup "~/Scripts/autostart"
     spawn-at-startup "noctalia"
-    spawn-at-startup "equibop"
     spawn-sh-at-startup "~/Scripts/event"

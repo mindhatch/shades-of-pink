@@ -1,0 +1,27 @@
+[display]
+disable_image_preview = false
+show_avatars = true
+show_images = true
+image_preview_quality = "original"
+show_custom_emoji = true
+circular_avatars = false
+
+[composer]
+emojis_as_links = true
+
+[credentials]
+store = "auto"
+
+[notifications]
+desktop_notifications = true
+notification_icon = ""
+voice_join_sound = ""
+voice_leave_sound = ""
+
+[voice]
+self_mute = false
+self_deaf = false
+allow_microphone_transmit = false
+microphone_sensitivity = -30
+microphone_volume = 100
+voice_output_volume = 100

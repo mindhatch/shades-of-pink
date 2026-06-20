@@ -4,7 +4,8 @@ binds {
 
     // ─── Applications ───
 
-    Mod+Return                          hotkey-overlay-title="Open foot" { spawn "~/Scripts/foot-theme"; }
+    Mod+Return                          hotkey-overlay-title="Open kitty" { spawn "kitty"; }
+    Mod+CTRL+Return                     hotkey-overlay-title="Open foot" { spawn "foot"; }
     Mod+CTRL+Space			            hotkey-overlay-title="Open fuzzel" { spawn "fuzzel"; }
     Mod+Shift+B                         hotkey-overlay-title="Open zen" { spawn "zen-browser"; }
     Mod+B                               hotkey-overlay-title="Open helium" { spawn "helium-browser"; }
@@ -18,6 +19,7 @@ binds {
     Mod+Shift+S				            hotkey-overlay-title="Open Spotify" { spawn "spotify-launcher"; }
     Mod+Shift+C                         hotkey-overlay-title="Show Date & Time" { spawn "~/Scripts/date-time"; }
     Mod+CTRL+P                          { spawn "~/Scripts/paint"; }
+    Mod+U                               { spawn "~/Scripts/yazi"; }
 
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }

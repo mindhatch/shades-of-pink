@@ -2,16 +2,16 @@
 order = [ "default" ]
 
     [bar.default]
-    background_opacity = 0.40000000000000002
-    center = [ "audio_visualizer", "cat", "media", "heart", "cat_2", "audio_visualizer" ]
-    end = [ "recorder", "cpu", "temp", "battery", "weather" ]
+    background_opacity = 0.39999999105930328
+    center = [ "heart", "clock", "heart" ]
+    end = [ "recorder", "cpu", "temp", "battery" ]
     font_weight = 400
     margin_edge = 0
     margin_ends = 110
     radius = 0
     scale = 1.25
     shadow = false
-    start = [ "workspaces", "clock" ]
+    start = [ "workspaces", "weather", "cat" ]
     widget_spacing = 16
 
 [[control_center.shortcuts]]
@@ -278,6 +278,11 @@ scale = 1.75
 type = "noctalia/bongocat:cat"
 
 [widget.cat_2]
+input_device = "/dev/input/event11"
+scale = 1.75
+type = "noctalia/bongocat:cat"
+
+[widget.cat_3]
 input_device = "/dev/input/event11"
 scale = 1.75
 type = "noctalia/bongocat:cat"

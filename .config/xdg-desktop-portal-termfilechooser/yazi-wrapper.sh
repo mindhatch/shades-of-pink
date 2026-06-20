@@ -3,6 +3,7 @@
 #
 # For more information about input/output arguments read `xdg-desktop-portal-termfilechooser(5)`
 
+CURRENT_THEME=$(gsettings get org.gnome.desktop.interface gtk-theme)
 set -e
 
 if [ "$6" -ge 4 ]; then
@@ -16,7 +17,11 @@ path="$4"
 out="$5"
 
 cmd="yazi"
-termcmd="${TERMCMD:-kitty --title 'termfilechooser'}"
+if [ "${CURRENT_THEME}" = "'Adwaita-light'" ]; then
+  termcmd="${TERMCMD:-foot -o -initial-color-theme=light --title 'termfilechooser'}"
+else
+  termcmd="${TERMCMD:-foot -o -initial-color-theme=dark --title 'termfilechooser'}"
+fi
 
 if [ "$save" = "1" ]; then
     # save a file
