@@ -12,6 +12,7 @@ if [ "${current_theme}" = "'Adwaita-light'" ]; then
     sed -i 's/#f8b4c9/#070707/' ~/.config/gtk-3.0/gtk.css
     sed -i 's/e-pink/e-pink-dark/' ~/.config/fuzzel/fuzzel.ini
     sed -i 's/e-pink/e-pink-dark/' ~/.config/btop/btop.conf
+    sed -i 's/peachpuff/shades-of-pink-dark/' ~/.config/helix/config.toml
     pkill -USR1 foot
     pkill -SIGUSR2 btop
 elif [ "${current_theme}" = "'Adwaita'" ]; then
@@ -25,6 +26,7 @@ elif [ "${current_theme}" = "'Adwaita'" ]; then
     sed -i 's/#070707/#f8b4c9/' ~/.config/gtk-3.0/gtk.css
     sed -i 's/e-pink-dark/e-pink/' ~/.config/fuzzel/fuzzel.ini
     sed -i 's/e-pink-dark/e-pink/' ~/.config/btop/btop.conf
+    sed -i 's/shades-of-pink-dark/peachpuff/' ~/.config/helix/config.toml
     pkill -USR2 foot
     pkill -SIGUSR2 btop
 fi

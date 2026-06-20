@@ -1,0 +1,55 @@
+"ui.background" = { fg = "foreground" }
+"ui.background.separator" = { fg = "blue" }
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "white" }
+"ui.text.info" = { fg = "background" }
+"ui.menu" = { fg = "background", bg = "gray" }
+"ui.menu.selected" = { modifiers = ["reversed"] }
+"ui.menu.scroll" = { fg = "light-gray", bg = "background" }
+"ui.linenr" = { fg = "yellow" }
+"ui.linenr.selected" = { fg = "black",  modifiers = ["bold"] }
+"ui.popup" = { fg = "white", bg = "black" }
+"ui.window" = { fg = "gray" }
+"ui.selection" = { bg = "gray", fg = "background" }
+"comment" = "light-red"
+"ui.statusline" = { fg = "background", bg = "blue" }
+"ui.help" = { fg = "white", bg = "black" }
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { modifiers = ["reversed"] }
+
+"variable" = "yellow"
+"constant.numeric" = "red"
+"constant" = "red"
+"attribute" = "magenta"
+"type" = "magenta"
+"string"  = "yellow"
+"variable.other.member" = "green"
+"constant.character.escape" = "black"
+"function" = "cyan"
+"constructor" = "#ff0000"
+"special" = "magenta"
+"keyword" = "gray"
+"label" = "magenta"
+"namespace" = "magenta"
+
+[palette]
+black = "#bd5a6f"
+red = "#ed8294"
+green = "#f9c3ce"
+yellow = "#af7784"
+blue = "#e58498"
+magenta = "#c35e73"
+cyan = "#ed99aa"
+light-gray = "#dac8d0"
+
+gray = "#bd5a6f"
+light-red = "#b994a8"
+light-green = "#b994a8"
+light-yellow = "#b994a8"
+light-blue = "#b994a8"
+light-magenta = "#b994a8"
+light-cyan = "#b994a8"
+white = "#f9c3ce"
+
+foreground = "#dac8d0"
+background = "#070707"
