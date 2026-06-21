@@ -32,9 +32,9 @@
         trace: (),
     ),
     progress_bar: (
-        symbols: ["༺", "༻", " ", " ", " "],
+        symbols: [" ", " ", " ", " ", " "],
         track_style: (),
-        elapsed_style: (fg: "#e58498"),
+        elapsed_style: (fg: "#bd5a6f"),
         thumb_style: (),
         use_track_when_empty: true,
     ),
