@@ -3,14 +3,12 @@ current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
 
 if [ "${current_theme}" = "'Adwaita-light'" ]; then
     awww img ~/Pictures/Wallpapers/pinkswirls.jpg &
-    kitty -- sh -c "yazi" &
-    sleep 0.7 && kitty -- sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
-    sleep 2.0 && kitty -- sh -c "sleep 0.2 && niri msg action maximize-column && concord" &
-    mpd-discord-rpc &
+    kitty sh -c "~/Downloads/misc/concord/target/release/concord" &
+    sleep 1.7 && kitty sh -c "sleep 0.2 && yazi" &
+    kitty sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
 else
     awww img ~/Pictures/Wallpapers/dark-pink-topo.png &
-    kitty -- sh -c "yazi" &
-    sleep 1.0 && kitty -- sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
-    sleep 1.5 && kitty -- sh -c "sleep 0.2 && niri msg action maximize-column && concord" &
-    mpd-discord-rpc &
+    kitty sh -c "~/Downloads/misc/concord/target/release/concord" &
+    sleep 1.7 && kitty sh -c "sleep 0.2 && yazi" &
+    kitty sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
 fi

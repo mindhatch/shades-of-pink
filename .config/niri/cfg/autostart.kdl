@@ -2,6 +2,6 @@
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
 
     spawn-at-startup "awww-daemon"
-    spawn-at-startup "~/Scripts/autostart"
+    spawn-sh-at-startup "~/Scripts/autostart"
     spawn-at-startup "noctalia"
     spawn-sh-at-startup "~/Scripts/event"
