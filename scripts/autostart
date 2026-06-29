@@ -1,14 +1,29 @@
 #! /usr/bin/env zsh
 current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
+ashes=$(grep -o "ashes" ~/.config/foot/foot.ini)
+astral=$(grep -o "astral" ~/.config/foot/foot.ini)
 
-if [ "${current_theme}" = "'Adwaita-light'" ]; then
+# set wallpaper
+if [ "${ashes}" = "ashes" ]; then
+    awww img ~/Pictures/Wallpapers/toronto.png &
+elif [ "${astral}" = "astral" ]; then
+    awww img ~/Pictures/Wallpapers/astral-grave-new-message.png &
+elif [ "${current_theme}" = "'Adwaita-light'" ]; then
     awww img ~/Pictures/Wallpapers/pinkswirls.jpg &
-    kitty sh -c "~/Downloads/misc/concord/target/release/concord" &
-    sleep 1.7 && kitty sh -c "sleep 0.2 && yazi" &
-    kitty sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
 else
     awww img ~/Pictures/Wallpapers/dark-pink-topo.png &
-    kitty sh -c "~/Downloads/misc/concord/target/release/concord" &
-    sleep 1.7 && kitty sh -c "sleep 0.2 && yazi" &
-    kitty sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
 fi
+
+# open and organize TUIs
+# kitty --single-instance --start-as=hidden &
+kitty --single-instance sh -c "~/Downloads/misc/concord/target/release/concord" &
+# sleep 1.75 && kitty --single-instance sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && yazi" &
+# sleep 1.0 && kitty --single-instance sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && btop" &
+sleep 1.25
+kitty --single-instance sh -c "rmpc" &
+sleep 0.5
+kitty --single-instance sh -c "cd ~/Downloads/misc/starlit && python -m venv .venv && source .venv/bin/activate && starlit && cd; exec zsh" &
+sleep 0.5
+niri msg action consume-or-expel-window-left && niri msg action set-column-width '-10%' && niri msg action focus-column-left && niri msg action set-column-width '+10%'
+
+# && niri msg action focus-window-up && niri msg action focus-window-up

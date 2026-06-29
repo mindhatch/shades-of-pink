@@ -4,7 +4,7 @@ show_avatars = true
 show_images = true
 image_preview_quality = "original"
 show_custom_emoji = true
-circular_avatars = false
+circular_avatars = true
 
 [composer]
 emojis_as_links = true
@@ -14,7 +14,8 @@ store = "auto"
 
 [notifications]
 desktop_notifications = true
-notification_icon = ""
+notification_icon = "/usr/share/icons/discord-icon.svg"
+notification_sound = "/home/doyle/Downloads/misc/concord-extras/discord-notification.wav"
 voice_join_sound = ""
 voice_leave_sound = ""
 

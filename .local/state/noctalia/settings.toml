@@ -3,15 +3,25 @@ order = [ "default" ]
 
     [bar.default]
     background_opacity = 0.39999999105930328
-    center = [ "heart", "clock", "heart" ]
-    end = [ "recorder", "cpu", "temp", "battery" ]
+    center = [
+        "cat",
+        "custom_button_2",
+        "audio_visualizer",
+        "heart",
+        "media",
+        "heart",
+        "audio_visualizer",
+        "custom_button_2",
+        "cat_2"
+    ]
+    end = [ "recorder", "weather", "cpu", "temp", "battery" ]
     font_weight = 400
     margin_edge = 0
-    margin_ends = 110
+    margin_ends = 40
     radius = 0
     scale = 1.25
     shadow = false
-    start = [ "workspaces", "weather", "cat" ]
+    start = [ "workspaces", "clock", "clock_2" ]
     widget_spacing = 16
 
 [[control_center.shortcuts]]
@@ -188,8 +198,8 @@ background_opacity = 0.4999999888241291
 show_app_name = false
 
 [osd]
-orientation = "vertical"
-position = "top_left"
+orientation = "horizontal"
+position = "top_center"
 
     [osd.kinds]
     media = false
@@ -211,19 +221,17 @@ settings_show_advanced = true
 show_location = false
 telemetry_enabled = false
 time_format = "%I:%M"
-ui_scale = 1.2500000111758709
+ui_scale = 1.2000000104308128
 
     [shell.animation]
     enabled = false
 
     [shell.panel]
-    borders = false
     clipboard_placement = "attached"
     launcher_categories = false
     launcher_compact = true
     launcher_show_icons = false
     shadow = false
-    transparency_mode = "glass"
 
     [shell.shadow]
     blur = 1
@@ -266,8 +274,7 @@ unit = "imperial"
 [widget.audio_visualizer]
 bands = 64
 scale = 1.25
-show_when_idle = true
-width = 200.0
+width = 160.0
 
 [widget.battery]
 display_mode = "graphic"
@@ -282,16 +289,20 @@ input_device = "/dev/input/event11"
 scale = 1.75
 type = "noctalia/bongocat:cat"
 
-[widget.cat_3]
-input_device = "/dev/input/event11"
-scale = 1.75
-type = "noctalia/bongocat:cat"
-
 [widget.clock]
-format = "%I:%M:%S%P - %A, %B %d"
+format = "%A, %B %d"
+
+[widget.clock_2]
+format = "%I:%M:%S%P"
+type = "clock"
 
 [widget.cpu]
 display = "text"
+
+[widget.custom_button_2]
+glyph = "spiral"
+scale = 1.3999999999999999
+type = "custom_button"
 
 [widget.heart]
 font_family = "Maple Mono NF"

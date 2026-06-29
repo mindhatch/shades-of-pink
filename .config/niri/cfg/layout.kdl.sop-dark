@@ -1,0 +1,38 @@
+    layout {
+        gaps 16 // Gap between windows
+        center-focused-column "never"
+    	always-center-single-column
+
+        background-color "transparent"
+
+        preset-column-widths {
+            proportion 0.33333
+            proportion 0.5
+            proportion 0.66667
+        }
+
+	focus-ring {
+	    off
+	    width 4
+	    active-color "#bd5a6f"
+	}
+
+	border {
+        on
+        width 4
+        active-color "#bd5a6f"
+        inactive-color "transparent"
+	}
+
+	tab-indicator {
+	    on
+	    hide-when-single-tab
+	    width 6
+	    active-color "#d8677f"
+	    inactive-color "#5a5a5a"
+	    gaps-between-tabs 8
+	    corner-radius 18
+	}
+
+        struts {}
+    }

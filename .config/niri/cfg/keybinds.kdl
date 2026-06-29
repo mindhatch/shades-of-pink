@@ -4,22 +4,22 @@ binds {
 
     // ─── Applications ───
 
-    Mod+Return                          hotkey-overlay-title="Open kitty" { spawn "kitty"; }
+    Mod+Return                          hotkey-overlay-title="Open kitty" { spawn-sh "kitty --single-instance"; }
     Mod+CTRL+Return                     hotkey-overlay-title="Open foot" { spawn "foot"; }
     Mod+CTRL+Space			            hotkey-overlay-title="Open fuzzel" { spawn "fuzzel"; }
     Mod+Shift+B                         hotkey-overlay-title="Open zen" { spawn "zen-browser"; }
-    Mod+B                               hotkey-overlay-title="Open helium" { spawn "helium-browser"; }
+    Mod+CTRL+B                          hotkey-overlay-title="Open helium" { spawn "helium-browser"; }
     Mod+D				                hotkey-overlay-title="Open equibop" { spawn "equibop"; }
     Mod+V				                hotkey-overlay-title="Open VSCode" { spawn "code"; }
     Mod+O				                hotkey-overlay-title="Open Obsidian" { spawn "obsidian"; }
     Mod+CTRL+R				            hotkey-overlay-title="Open gpu-screen-recorder-ui" { spawn "gsr-ui"; }
     Mod+X				                hotkey-overlay-title="Open Calculator" { spawn "kcalc"; }
     Mod+E                               hotkey-overlay-title="Open Thunar" { spawn "thunar"; }
-    Mod+Z				                hotkey-overlay-title="Open Zed" { spawn "~/.local/bin/zed"; }
+    Mod+Z				                hotkey-overlay-title="Open Zed" { spawn "~/Scripts/yazi"; }
     Mod+Shift+S				            hotkey-overlay-title="Open Spotify" { spawn "spotify-launcher"; }
     Mod+Shift+C                         hotkey-overlay-title="Show Date & Time" { spawn "~/Scripts/date-time"; }
     Mod+CTRL+P                          { spawn "~/Scripts/paint"; }
-    Mod+U                               { spawn "~/Scripts/yazi"; }
+    Mod+B                               { spawn "floorp"; }
 
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }
@@ -126,7 +126,8 @@ binds {
     // ─── Modes ───
     Mod+T                               { toggle-window-floating; }
     Mod+F                               { fullscreen-window; }
-    Mod+M				                { maximize-window-to-edges; }
+    Mod+M				                { maximize-column; }
+    Mod+Shift+M				            { maximize-window-to-edges; }
     Mod+W                               { toggle-column-tabbed-display; }
 
     // ─── Capture ───
@@ -148,4 +149,5 @@ binds {
     Mod+Shift+P                         { power-off-monitors; } // Turn off screens (useful for OLED or privacy)
     Mod+Shift+O                         repeat=false { toggle-overview; }
     Mod+Shift+L                         { spawn-sh "noctalia msg session lock"; }
+    Mod+ALT+L                           { spawn-sh "noctalia msg session logout"; }
 }

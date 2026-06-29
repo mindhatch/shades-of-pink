@@ -1,22 +1,22 @@
     animations {
 
         workspace-switch {
-            spring damping-ratio=0.5 stiffness=300 epsilon=0.0001
+            spring damping-ratio=0.75 stiffness=900 epsilon=0.0001
         }
         horizontal-view-movement {
-            spring damping-ratio=0.5 stiffness=300 epsilon=0.0001
+            spring damping-ratio=0.75 stiffness=900 epsilon=0.0001
         }
         window-movement {
-            spring damping-ratio=0.5 stiffness=300 epsilon=0.0001
+            spring damping-ratio=0.75 stiffness=900 epsilon=0.0001
         }
         window-resize {
-            spring damping-ratio=0.5 stiffness=300 epsilon=0.0001
+            spring damping-ratio=0.75 stiffness=900 epsilon=0.0001
         }
         config-notification-open-close {
-            spring damping-ratio=0.5 stiffness=300 epsilon=0.001
+            spring damping-ratio=0.75 stiffness=900 epsilon=0.001
         }
         overview-open-close {
-            spring damping-ratio=0.5 stiffness=300 epsilon=0.0001
+            spring damping-ratio=0.75 stiffness=900 epsilon=0.0001
         }
 
     window-open {

@@ -4,9 +4,10 @@
 (
     address: "127.0.0.1:6600",
     password: None,
-    theme: "~/.config/rmpc/themes/pink.ron",
+    theme: "~/.config/rmpc/themes/theme.ron",
     cache_dir: "~/.config/rmpc/cache",
-    on_song_change: ["~/.config/rmpc/notify"],
+    lyrics_dir: "~/.config/rmpc/cache/lyrics",
+    on_song_change: ["~/.config/rmpc/on-song-change"],
     volume_step: 5,
     max_fps: 30,
     scrolloff: 10,
@@ -19,7 +20,7 @@
     rewind_to_start_sec: None,
     keep_state_on_song_change: true,
     reflect_changes_to_playlist: false,
-    select_current_song_on_change: false,
+    select_current_song_on_change: true,
     ignore_leading_the: false,
     browser_song_sort: [Disc, Track, Artist, Title],
     directories_sort: SortFormat(group_by_type: true, reverse: false),
@@ -141,51 +142,7 @@
                 direction: Horizontal,
                 panes: [
                     (
-                        size: "70%",
-                        pane: Split(
-                            direction: Vertical,
-                            panes: [
-                                (
-                                    size: "3",
-                                    borders: "ALL",
-                                    border_symbols: Inherited(parent: Plain, bottom_left: "├", bottom_right: "┤",),
-                                    pane: Split(
-                                        direction: Horizontal,
-                                        panes: [
-                                            (
-                                                size: "1",
-                                                pane: Pane(Empty())
-                                            ),
-                                            (
-                                                size: "100%",
-                                                pane: Pane(QueueHeader())
-                                            ),
-                                        ]
-                                    )
-                                ),
-                                (
-                                    size: "100%",
-                                    borders: "LEFT | RIGHT | BOTTOM",
-                                    border_symbols: Plain,
-                                    pane: Split(
-                                        direction: Horizontal,
-                                        panes: [
-                                            (
-                                                size: "1",
-                                                pane: Pane(Empty())
-                                            ),
-                                            (
-                                                size: "100%",
-                                                pane: Pane(Queue)
-                                            ),
-                                        ]
-                                    )
-                                ),
-                            ],
-                        )
-                    ),
-                    (
-                        size: "30%",
+                        size: "60%",
                         pane: Split(
                             direction: Vertical,
                             panes: [
@@ -193,7 +150,53 @@
                                     size: "100%",
                                     borders: "LEFT | RIGHT | TOP | BOTTOM",
                                     border_symbols: Plain,
+                                    border_title: [(kind: Text("artist———————————————————————————————title"))],
+                                    border_title_alignment: Center,
+                                    pane: Split(
+                                        direction: Horizontal,
+                                        panes: [
+                                            (
+                                                size: "100%",
+                                                pane: Pane(Queue),
+                                            ),
+                                        ]
+                                    )
+                                ),
+                                            (
+                                                size: "100%",
+                                                borders: "LEFT | RIGHT | TOP | BOTTOM",
+                                                border_symbols: Plain,
+                                                border_title: [(kind: Text("lyrics"))],
+                                                border_title_alignment: Left,
+                                                pane: Pane(Lyrics),
+                                            ),
+                            ],
+                        )
+                    ),
+                    (
+                        size: "40%",
+                        pane: Split(
+                            direction: Vertical,
+                            panes: [
+                                (
+                                    size: "5%",
+                                    borders: "LEFT | RIGHT | TOP",
+                                    border_symbols: Plain,
+                                    border_title: [(kind: Text("album"))],
+                                    border_title_alignment: Right,
+                                    pane: Pane(Empty()),
+                                ),
+                                (
+                                    size: "90%",
+                                    borders: "LEFT | RIGHT",
+                                    border_symbols: Plain,
                                     pane: Pane(AlbumArt),
+                                ),
+                                (
+                                    size: "5%",
+                                    borders: "LEFT | RIGHT | BOTTOM",
+                                    border_symbols: Plain,
+                                    pane: Pane(Empty()),
                                 ),
                             ],
                         ),

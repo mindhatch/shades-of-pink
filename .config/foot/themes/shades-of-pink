@@ -15,10 +15,10 @@ regular6 = ea5980
 regular7 = 000000
 
 bright0 = e58498
-bright1 = 5a5a5a
+bright1 = ea5980
 bright2 = 5a5a5a
 bright3 = 5a5a5a
-bright4 = 5a5a5a
+bright4 = 333333
 bright5 = 5a5a5a
 bright6 = 474747
 bright7 = 070707
@@ -42,10 +42,10 @@ regular6 = ed99aa #cyan
 regular7 = dac8d0 #white
 
 bright0 = bd5a6f
-bright1 = b994a8
+bright1 = ea5980
 bright2 = b994a8
 bright3 = b994a8
-bright4 = b994a8
+bright4 = e58498
 bright5 = b994a8
 bright6 = 111111
 bright7 = f9c3ce
