@@ -1,0 +1,47 @@
+#! /usr/bin/env zsh
+ashes=$(grep -o 'ashes' ~/.config/foot/foot.ini)
+sop=$(grep -o 'shades-of-pink' ~/.config/foot/foot.ini)
+
+# wallpaper
+awww img ~/Pictures/Wallpapers/astral-grave-new-message.png -t none &
+
+# niri
+cp ~/.config/niri/cfg/rules.kdl.astral ~/.config/niri/cfg/rules.kdl
+cp ~/.config/niri/cfg/misc.kdl.astral ~/.config/niri/cfg/misc.kdl
+cp ~/.config/niri/cfg/layout.kdl.astral ~/.config/niri/cfg/layout.kdl
+
+# kitty
+cp ~/.config/kitty/dark-theme.auto.conf.astral ~/.config/kitty/dark-theme.auto.conf
+cp ~/.config/kitty/light-theme.auto.conf.astral ~/.config/kitty/light-theme.auto.conf
+sed -i 's/0.6/0.9/' ~/.config/kitty/kitty.conf
+
+# foot
+sed -i 's/0.6/0.9/' ~/.config/foot/foot.ini
+
+if [ "${ashes}" = "ashes" ]; then
+  sed -i 's/ashes/astral/' ~/.config/foot/foot.ini
+  sed -i 's/ashes/astral/' ~/.config/btop/btop.conf
+  sed -i 's/ashes/astral/' ~/.config/fuzzel/fuzzel.ini
+else
+  sed -i 's/shades-of-pink/astral/' ~/.config/foot/foot.ini
+  sed -i 's/sop-dark/astral/' ~/.config/btop/btop.conf
+  sed -i 's/sop-light/astral/' ~/.config/btop/btop.conf
+  sed -i 's/sop-dark/astral/' ~/.config/fuzzel/fuzzel.ini
+  sed -i 's/sop-light/astral/' ~/.config/fuzzel/fuzzel.ini
+fi
+
+pkill -SIGUSR2 btop
+
+# yazi
+cp ~/.config/yazi/theme.toml.astral ~/.config/yazi/theme.toml
+
+# rmpc
+cp ~/.config/rmpc/themes/astral.ron ~/.config/rmpc/themes/theme.ron
+rmpc remote set theme ~/.config/rmpc/themes/theme.ron
+
+# noctalia
+cp ~/.config/noctalia/config.toml.astral ~/.config/noctalia/config.toml
+noctalia msg color-scheme-set custom Astral
+
+# starlit
+cp ~/.config/starlit/.env.astral ~/.config/starlit/.env

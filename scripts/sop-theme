@@ -1,0 +1,57 @@
+#! /usr/bin/env zsh
+color_scheme=$(gsettings get org.gnome.desktop.interface color-scheme)
+astral=$(grep -o 'astral' ~/.config/foot/foot.ini)
+ashes=$(grep -o 'ashes' ~/.config/foot/foot.ini)
+
+# niri
+cp ~/.config/niri/cfg/misc.kdl.sop ~/.config/niri/cfg/misc.kdl
+
+# kitty
+cp ~/.config/kitty/dark-theme.auto.conf.sop ~/.config/kitty/dark-theme.auto.conf
+cp ~/.config/kitty/light-theme.auto.conf.sop ~/.config/kitty/light-theme.auto.conf
+sed -i 's/0.9/0.6/' ~/.config/kitty/kitty.conf
+
+# foot
+sed -i 's/0.9/0.6/' ~/.config/foot/foot.ini
+
+# yazi
+cp ~/.config/yazi/theme.toml.sop ~/.config/yazi/theme.toml
+
+# rmpc
+cp ~/.config/rmpc/themes/sop.ron ~/.config/rmpc/themes/theme.ron
+rmpc remote set theme ~/.config/rmpc/themes/theme.ron
+
+# starlit
+cp ~/.config/starlit/.env.sop ~/.config/starlit/.env
+
+if [ "${color_scheme}" = "'prefer-light'" ]; then
+  awww img ~/Pictures/Wallpapers/pinkswirls.jpg -t none &
+  cp ~/.config/noctalia/config.toml.sop-light ~/.config/noctalia/config.toml
+  cp ~/.config/niri/cfg/rules.kdl.sop-light ~/.config/niri/cfg/rules.kdl
+  cp ~/.config/niri/cfg/layout.kdl.sop-light ~/.config/niri/cfg/layout.kdl
+  sed -i 's/astral/sop-light/' ~/.config/btop/btop.conf
+  sed -i 's/ashes/sop-light/' ~/.config/btop/btop.conf
+  sed -i 's/astral/sop-light/' ~/.config/fuzzel/fuzzel.ini
+  sed -i 's/ashes/sop-light/' ~/.config/fuzzel/fuzzel.ini
+  noctalia msg theme-mode-set light
+else
+  awww img ~/Pictures/Wallpapers/dark-pink-topo.png -t none &
+  cp ~/.config/noctalia/config.toml.sop-dark ~/.config/noctalia/settings.toml
+  cp ~/.config/niri/cfg/rules.kdl.sop-dark ~/.config/niri/cfg/rules.kdl
+  cp ~/.config/niri/cfg/layout.kdl.sop-dark ~/.config/niri/cfg/layout.kdl
+  sed -i 's/astral/sop-dark/' ~/.config/btop/btop.conf
+  sed -i 's/ashes/sop-dark/' ~/.config/btop/btop.conf
+  sed -i 's/astral/sop-dark/' ~/.config/fuzzel/fuzzel.ini
+  sed -i 's/ashes/sop-dark/' ~/.config/fuzzel/fuzzel.ini
+  noctalia msg theme-mode-set dark
+fi
+
+noctalia msg color-scheme-set custom Shades of Pink
+pkill -SIGUSR2 btop
+
+# foot
+if [ "${astral}" = "astral" ]; then
+  sed -i 's/astral/shades-of-pink/' ~/.config/foot/foot.ini
+elif [ "${ashes}" = "ashes" ]; then
+  sed -i 's/ashes/shades-of-pink/' ~/.config/foot/foot.ini
+fi

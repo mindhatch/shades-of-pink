@@ -14,7 +14,6 @@ binds {
     Mod+X				                { spawn "kcalc"; }
     Mod+E                               { spawn "thunar"; }
     Mod+Z				                { spawn "~/Scripts/yazi"; }
-    Mod+Shift+S				            { spawn "spotify-launcher"; }
     Mod+Shift+C                         { spawn "~/Scripts/date-time"; }
     Mod+CTRL+P                          { spawn "~/Scripts/paint"; }
     Mod+B                               { spawn "floorp"; }
@@ -34,6 +33,9 @@ binds {
 
     // ─── Theme Switching ───
     Mod+Shift+1				            { spawn "~/Scripts/toggle-theme"; }
+    Mod+Shift+A                         { spawn "~/Scripts/sop-theme"; }
+    Mod+Shift+S                         { spawn "~/Scripts/astral-theme"; }
+    Mod+Shift+D                         { spawn "~/Scripts/ashes-theme"; }
 
     // ─── Window Movement and Focus ───
     Mod+Q                               { close-window; }
