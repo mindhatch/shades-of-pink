@@ -17,7 +17,7 @@ path="$4"
 out="$5"
 
 cmd="yazi"
-if [ "${CURRENT_THEME}" = "'Adwaita-light'" ]; then
+if [ "${CURRENT_THEME}" = "'adw-gtk3'" ]; then
   termcmd="${TERMCMD:-foot -o -initial-color-theme=light --title 'termfilechooser'}"
 else
   termcmd="${TERMCMD:-foot -o -initial-color-theme=dark --title 'termfilechooser'}"

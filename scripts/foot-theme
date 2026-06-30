@@ -1,8 +1,9 @@
 #! /usr/bin/env zsh
 current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme)
 
-if [ "${current_theme}" = "'Adwaita-light'" ]; then
+# opens foot in proper dark or light theme
+if [ "${current_theme}" = "'adw-gtk3'" ]; then
     foot -o initial-color-theme=light &
 else
-    foot -o initial-color-theme=dark
+    foot -o initial-color-theme=dark &
 fi
