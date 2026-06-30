@@ -1,3 +1,1 @@
-.thunar .view, .thunar .frame, widget, menubar { background-color: #f8b4c9; }
-.thunar .view:selected { background-color: #e58498; color: #000000; }
-.thunar .view .rubberband { background-color: rgba(0,0,0,0); border-color: #aaaaaa; }
+@import url("noctalia.css");
