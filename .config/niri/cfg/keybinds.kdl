@@ -6,7 +6,8 @@ binds {
     Mod+CTRL+Return                     { spawn "~/Scripts/foot-theme"; }
     Mod+CTRL+Space			            { spawn "fuzzel"; }
     Mod+Shift+B                         { spawn "zen-browser"; }
-    Mod+CTRL+B                          { spawn "helium-browser"; }
+    Mod+CTRL+B                          { spawn "floorp"; }
+    Mod+B                               { spawn "helium-browser"; }
     Mod+D				                { spawn "equibop"; }
     Mod+V				                { spawn "code"; }
     Mod+O				                { spawn "obsidian"; }
@@ -16,7 +17,7 @@ binds {
     Mod+Z				                { spawn "~/Scripts/yazi"; }
     Mod+Shift+C                         { spawn "~/Scripts/date-time"; }
     Mod+CTRL+P                          { spawn "~/Scripts/paint"; }
-    Mod+B                               { spawn "floorp"; }
+    Mod+W                               { spawn "~/Downloads/misc/Whisp/./run.sh"; }
 
     // ─── Media Controls ───
     XF86AudioRaiseVolume                allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.05+"; }
@@ -128,7 +129,7 @@ binds {
     Mod+F                               { fullscreen-window; }
     Mod+M				                { maximize-column; }
     Mod+Shift+M				            { maximize-window-to-edges; }
-    Mod+W                               { toggle-column-tabbed-display; }
+    Mod+Shift+W                         { toggle-column-tabbed-display; }
 
     // ─── Capture ───
     Mod+S				                { spawn "~/Scripts/take-screenshot"; }
