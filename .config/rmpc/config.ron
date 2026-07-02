@@ -150,7 +150,7 @@
                                     size: "100%",
                                     borders: "LEFT | RIGHT | TOP | BOTTOM",
                                     border_symbols: Plain,
-                                    border_title: [(kind: Text("artist———————————————————————————————title"))],
+                                    border_title: [(kind: Text("artist & title"))],
                                     border_title_alignment: Center,
                                     pane: Split(
                                         direction: Horizontal,
